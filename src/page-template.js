@@ -11,7 +11,7 @@ const generateAbout = aboutText => {
     `;
 }
 
-const generateProjects = projectsArr => {
+const generateProjects = projectHtmlArr => {
     return `
     <section class="my-3" id="portfolio">
         <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
@@ -66,6 +66,7 @@ module.exports = templateData => {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="style.css">
             <title>Portfolio Demo</title>
         </head>
 
